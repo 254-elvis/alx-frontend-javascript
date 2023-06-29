@@ -1,6 +1,5 @@
-
-rt default function getResponseFromAPI() {
-	  return new Promise((resolve) => {
-		      resolve('msg');
-		    });
+export default function getResponseFromAPI() {
+  return new Promise((resolve) => {
+    resolve('msg');
+  });
 }
